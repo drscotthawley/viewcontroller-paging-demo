@@ -21,13 +21,14 @@ class ViewControllerPage2: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBOutlet weak var nameQueryLabel: UILabel!
     @IBOutlet weak var nameField: UITextField!
 
     @IBOutlet weak var questField: UITextField!
     
     @IBOutlet weak var favColorField: UITextField!
     @IBOutlet weak var submitButton: UIButton!
-    
+   
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
         if (segue.identifier == "seguePage2ToPage3") {
@@ -36,6 +37,9 @@ class ViewControllerPage2: UIViewController {
             svc.toPass = [nameField.text,questField.text,favColorField.text]
             
         }
+    }
+    @IBAction func cancelToPage3(segue:UIStoryboardSegue) {
+        nameQueryLabel.text = "Again: " + nameQueryLabel.text!
     }
 
 }

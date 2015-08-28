@@ -32,6 +32,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func cancelToPage2(segue:UIStoryboardSegue) {
+        welcomeLabel.text = "Oh, so you're back"
+    }
    
 }
 

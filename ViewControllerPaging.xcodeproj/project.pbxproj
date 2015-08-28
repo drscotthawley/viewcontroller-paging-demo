@@ -15,6 +15,8 @@
 		47FD5B941B8FE8CA00F400D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47FD5B921B8FE8CA00F400D3 /* LaunchScreen.storyboard */; };
 		47FD5B9F1B8FE8CB00F400D3 /* ViewControllerPagingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FD5B9E1B8FE8CB00F400D3 /* ViewControllerPagingTests.swift */; };
 		47FD5BAA1B8FE8CB00F400D3 /* ViewControllerPagingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FD5BA91B8FE8CB00F400D3 /* ViewControllerPagingUITests.swift */; };
+		47FD5BBA1B8FEE3300F400D3 /* ViewControllerPage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FD5BB91B8FEE3300F400D3 /* ViewControllerPage2.swift */; };
+		47FD5BBC1B8FEED700F400D3 /* ViewControllerPage3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FD5BBB1B8FEED700F400D3 /* ViewControllerPage3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		47FD5BA51B8FE8CB00F400D3 /* ViewControllerPagingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewControllerPagingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47FD5BA91B8FE8CB00F400D3 /* ViewControllerPagingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPagingUITests.swift; sourceTree = "<group>"; };
 		47FD5BAB1B8FE8CB00F400D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47FD5BB91B8FEE3300F400D3 /* ViewControllerPage2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerPage2.swift; path = ViewControllerPaging/ViewControllerPage2.swift; sourceTree = "<group>"; };
+		47FD5BBB1B8FEED700F400D3 /* ViewControllerPage3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerPage3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		47FD5B7A1B8FE8CA00F400D3 = {
 			isa = PBXGroup;
 			children = (
+				47FD5BB91B8FEE3300F400D3 /* ViewControllerPage2.swift */,
 				47FD5B851B8FE8CA00F400D3 /* ViewControllerPaging */,
 				47FD5B9D1B8FE8CB00F400D3 /* ViewControllerPagingTests */,
 				47FD5BA81B8FE8CB00F400D3 /* ViewControllerPagingUITests */,
@@ -102,6 +107,7 @@
 				47FD5B861B8FE8CA00F400D3 /* AppDelegate.swift */,
 				47FD5B881B8FE8CA00F400D3 /* ViewController.swift */,
 				47FD5B8A1B8FE8CA00F400D3 /* Main.storyboard */,
+				47FD5BBB1B8FEED700F400D3 /* ViewControllerPage3.swift */,
 				47FD5B901B8FE8CA00F400D3 /* Assets.xcassets */,
 				47FD5B921B8FE8CA00F400D3 /* LaunchScreen.storyboard */,
 				47FD5B951B8FE8CA00F400D3 /* Info.plist */,
@@ -260,6 +266,8 @@
 			files = (
 				47FD5B891B8FE8CA00F400D3 /* ViewController.swift in Sources */,
 				47FD5B8F1B8FE8CA00F400D3 /* ViewControllerPaging.xcdatamodeld in Sources */,
+				47FD5BBA1B8FEE3300F400D3 /* ViewControllerPage2.swift in Sources */,
+				47FD5BBC1B8FEED700F400D3 /* ViewControllerPage3.swift in Sources */,
 				47FD5B871B8FE8CA00F400D3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -403,6 +411,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ViewControllerPaging/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.scotthawley.com.ViewControllerPaging;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,6 +423,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ViewControllerPaging/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.scotthawley.com.ViewControllerPaging;
 				PRODUCT_NAME = "$(TARGET_NAME)";
